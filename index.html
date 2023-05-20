@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>IA</title>
+
+	<link rel="stylesheet" href="css/style.css">
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+
+	<!-- jQuery library -->
+	<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
+
+	<!-- Popper JS -->
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+
+	<!-- Latest compiled JavaScript -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</head>
+<body>
+
+	<div class="table-responsive container-fluid design-container position-container font-family">
+		<h2 class="position-title" style="font-size: 40px;">Método falsa posición<br>Realizado por: Luis Hernando Murcia Amortegui</h2>
+
+		<div class="container text-center">
+
+			<img src="img/funcion_2.JPG" width="500px">
+
+
+		</div>
+
+		
+
+		<h2 class="position-title" style="font-size: 40px;">Calculadora<br>Realizado por: Luis Hernando Murcia Amortegui</h2>
+
+		<p>Para poder utilizar la aplicación, por favor ingresar para la casilla a = 0 y para la casilla b = 1, una vez se inicie el algoritmo programado por Luis Hernando Murcia iniciara la iteración hasta llegar a la raíz, se mostrará al final de la página, esperamos que la experiencia sea satisfactoria para el usuario.</p>
+
+		<input id="input-a" type="text" placeholder="a" value="">
+
+		<input id="input-b" type="text" placeholder="b" value="">
+
+		<br>
+
+		<input id="input-fa" type="text" placeholder="f(a)" value="" style="margin-top: 6px;" readonly onmousedown="return false;" />
+
+		<input id="input-fb" type="text" placeholder="f(b)" value="" readonly onmousedown="return false;" />
+
+		<br>
+
+		<img src="img/formula-falsa-posicion.JPG" alt="" style="margin-top: 10px;">
+
+		<input id="input-x" type="text" placeholder="x" value="" style="margin-top: 6px;">
+
+		<br> <br>
+
+		<button type="button" class="design-button position-button-bottom font-family" onclick="myFunction(1)">Calcular</button>
+
+		<button type="text" class="design-button position-button-bottom font-family" onclick="myFunction(0)">Limpiar</button>
+
+		<br> <br>
+
+		<p id="demo1"></p>
+
+		<p id="demo"></p>
+
+	</div>
+	
+
+<script src="js/script.js"></script>	
+</body>
+</html>
